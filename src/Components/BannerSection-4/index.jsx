@@ -17,14 +17,38 @@ const BannerSec4 = () => {
       </div>
 
       <div className="max-w-7xl mx-auto flex justify-between">
-        <img src={course1} alt="" className="" />
-        <img src={course2} alt="" className="" />
-        <img src={course3} alt="" className="" />
+        <img
+          src={course1}
+          alt=""
+          className="transition-all duration-500 hover:-translate-y-5"
+        />
+        <img
+          src={course2}
+          alt=""
+          className="transition-all duration-500 hover:-translate-y-5"
+        />
+        <img
+          src={course3}
+          alt=""
+          className="transition-all duration-500 hover:-translate-y-5"
+        />
       </div>
       <div className="max-w-7xl mx-auto flex justify-between">
-        <img src={course4} alt="" className="" />
-        <img src={course5} alt="" className="" />
-        <img src={course6} alt="" className="" />
+        <img
+          src={course4}
+          alt=""
+          className="transition-all duration-500 hover:-translate-y-5"
+        />
+        <img
+          src={course5}
+          alt=""
+          className="transition-all duration-500 hover:-translate-y-5"
+        />
+        <img
+          src={course6}
+          alt=""
+          className="transition-all duration-500 hover:-translate-y-5"
+        />
       </div>
     </div>
   );

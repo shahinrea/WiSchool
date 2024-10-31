@@ -1,4 +1,3 @@
-import './App.css';
 import BannerSec1 from './Components/BannerSection-1/assets';
 import BannerSec2 from './Components/BannerSection-2';
 import Carousel from './Components/BannerSection-3/Carousel';

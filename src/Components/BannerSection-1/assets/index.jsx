@@ -10,16 +10,16 @@ const BannerSec1 = () => {
           Quality <span className="text-[#09B451]">Education</span> <br />
           By Any Means <br /> Necessary.
         </h1>
-        <button className=" bg-[#09B451] rounded-md py-2 px-6 text-white mt-10">
+        <button className=" bg-[#09B451] rounded-md py-2 px-4 text-white hover:bg-white hover:text-[#09B451] hover:border-2 border-[#09B451] cursor-pointer mt-14">
           Get Start
         </button>
       </div>
 
-      <div className="flex w-6/12 border-2">
+      <div className="flex w-6/12 overflow-hidden ">
         <img
           src={image}
           alt=""
-          className="ml-10 relative h-[500px] w-[750px] block"
+          className="hover:scale-125 hover:translate-y-14 hover:-translate-x-10 ease-in-out duration-1000 ml-10 relative h-[500px] w-[750px] block"
         />
       </div>
       <img src={frame} alt="" className=" flex h-[605px] -m-8 rounded-r-3xl" />

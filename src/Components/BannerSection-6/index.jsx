@@ -11,8 +11,8 @@ const BannerSec6 = () => {
         </h1>
       </div>
 
-      <div className="flex">
-        <img src={frame} alt="" className="" />
+      <div className="flex overflow-hidden">
+        <img src={frame} alt="" className="hover:scale-125 hover:translate-y-14 hover:-translate-x-10 ease-in-out duration-1000" />
         <div className="flex flex-col">
           <div className="flex mb-6">
             <h1 className="text-5xl font-bold text-left">

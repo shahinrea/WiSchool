@@ -13,10 +13,14 @@ const BannerSec8 = () => {
       </div>
 
       <div className="flex gap-11">
-        <div className="flex flex-col justify-center w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl">
+        <div className="flex flex-col justify-center w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl ">
           <div className="gap-4">
             <div className="flex justify-center">
-              <img src={picture1} alt="" className="" />
+              <img
+                src={picture1}
+                alt=""
+                className="transition-all duration-500 animate-"
+              />
             </div>
             <div className="text-center">
               <p className="text-2xl font-bold">John Mark</p>

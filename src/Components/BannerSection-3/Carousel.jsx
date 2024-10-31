@@ -46,19 +46,54 @@ const Carousel = () => {
 
   return (
     <div className="max-w-7xl mx-auto Slider-Container py-10 justify-center items-center">
-        <div className='flex justify-between py-16'>
-        <h1 className='font-bold text-4xl font-opensans'>Choose favourite course from top cartegories</h1>
-        <p className='text-gray-400 text-2xl font-poppins'>See all</p>
-        </div>
+      <div className="flex justify-between py-16">
+        <h1 className="font-bold text-4xl font-opensans">
+          Choose favourite course from top cartegories
+        </h1>
+        <p className="text-gray-400 text-2xl font-poppins">See all</p>
+      </div>
       <Slider {...settings}>
-        <div className="relative flex">
-          <img src={card1} alt="" className="m-0" />
+        <div className="relative flex group group-hover: cursor-pointer">
+          <img src={card1} alt="" className="m-0 absolute z-0" />
+          <div className="absolute bg-black/30 z-1"></div>
+          <div className="px-2 -bottom-[540px] absolute z-30 text-white group-hover:top-20">
+            <h1 className="text-3xl text-white font-bold py-2 px-4">
+              Marketing
+            </h1>
+            <p className="px-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit.Accusantium ea temporibus, ipsa cum similique quos fuga
+              quaerat distinctio accusamus ipsum nobis
+            </p>
+          </div>
         </div>
-        <div className="relative flex">
-          <img src={card2} alt="" className="m-0" />
+        <div className="relative flex group group-hover: cursor-pointer">
+          <img src={card2} alt="" className="m-0 absolute z-0" />
+          <div className="absolute bg-black/30 z-1"></div>
+          <div className="px-2 -bottom-[540px] absolute z-30 text-white group-hover:top-20">
+            <h1 className="text-3xl text-white font-bold py-2 px-4">
+              Desigining
+            </h1>
+            <p className="px-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit.Accusantium ea temporibus, ipsa cum similique quos fuga
+              quaerat distinctio accusamus ipsum nobis
+            </p>
+          </div>
         </div>
-        <div className="relative flex">
-          <img src={card3} alt="" className="m-0" />
+        <div className="relative flex group group-hover: cursor-pointer">
+          <img src={card3} alt="" className="m-0 absolute z" />
+          <div className="absolute bg-black/30 z-1"></div>
+          <div className="px-2 -bottom-[540px] absolute z-30 text-white group-hover:top-20 duration-1000">
+            <h1 className="text-3xl text-white font-bold py-2 px-4">
+              Programming
+            </h1>
+            <p className="px-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit.Accusantium ea temporibus, ipsa cum similique quos fuga
+              quaerat distinctio accusamus ipsum nobis
+            </p>
+          </div>
         </div>
         <div className="relative flex">
           <img src={card4} alt="" className="m-0" />
