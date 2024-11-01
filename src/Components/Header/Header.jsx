@@ -1,11 +1,13 @@
 import React from 'react';
 import search from '../Header/assets/search.png';
 import wilogo from '../Header/assets/wilogo.png';
+import hamber from './assets/hamberger.png'
 const Header = () => {
   return (
     <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <img className='w-14 block md:hidden' src={hamber} alt="" />
       <img src={wilogo} alt="" />
-      <div className="flex gap-16 text-gray-400 font-opensans">
+      <div className="hidden md:flex gap-16 text-gray-400 font-opensans">
         <a
           href=""
           className="group relative  p-3 overflow-hidden text-gray/60 font-semibold text-base  active"

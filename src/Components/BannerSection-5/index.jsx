@@ -14,7 +14,7 @@ const BannerSec5 = () => {
         </h1>
       </div>
 
-      <div className="max-w-7xl mx-auto flex justify-between">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between">
         <img
           src={card1}
           alt=""

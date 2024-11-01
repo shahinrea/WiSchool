@@ -7,7 +7,7 @@ import frame5 from '../BannerSection-2/assets/frame5.png';
 
 function BannerSec2() {
   return (
-    <div className="max-w-7xl mx-auto flex flex-row justify-between mt-10">
+    <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start mt-10">
       <div className="flex items-center p-2 bg-[#DDFFFF] py-2 px-4 gap-4">
         <img src={frame1} alt="" />
         <p>Problem Solving</p>

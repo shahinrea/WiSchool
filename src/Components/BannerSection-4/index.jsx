@@ -16,7 +16,7 @@ const BannerSec4 = () => {
         <p className="text-gray-400 text-2xl font-poppins"> v Short by</p>
       </div>
 
-      <div className="max-w-7xl mx-auto flex justify-between">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between">
         <img
           src={course1}
           alt=""
@@ -33,7 +33,7 @@ const BannerSec4 = () => {
           className="transition-all duration-500 hover:-translate-y-5"
         />
       </div>
-      <div className="max-w-7xl mx-auto flex justify-between">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between">
         <img
           src={course4}
           alt=""
