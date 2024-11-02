@@ -7,13 +7,13 @@ const BannerSec8 = () => {
   return (
     <div className="max-w-7xl mx-auto mb-20">
       <div className="flex justify-start py-20">
-        <h1 className="font-bold text-4xl font-opensans">
-          Meet our instructors{' '}
+        <h1 className="font-bold text-4xl font-opensans text-center md:text-start">
+          Meet our instructors
         </h1>
       </div>
 
-      <div className="flex gap-11">
-        <div className="flex flex-col justify-center w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl ">
+      <div className="flex flex-col md:flex-row gap-11">
+        <div className="flex flex-col justify-center md: w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl ">
           <div className="gap-4">
             <div className="flex justify-center">
               <img

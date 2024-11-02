@@ -14,9 +14,9 @@ const BannerSec9 = () => {
           alt=""
           className="w-full mx-auto h-full absolute opacity-30 duration-500"
         />
-        <div className="max-w-7xl mx-auto flex flex-row relative">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row relative">
           {/* First Div */}
-          <div className="w-6/12 flex items-center justify-center -translate-y-10">
+          <div className="hiddenw-6/12 flex items-center justify-center -translate-y-10">
             <img src={lady1} alt="" className="h-[517px] w-[513px]" />
           </div>
 

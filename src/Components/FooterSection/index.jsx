@@ -8,7 +8,7 @@ function FooterSec() {
   return (
     <section className="max-w-full bg-black">
       <div className="w-full bg-black">
-        <div className="max-w-7xl mx-auto font-poppins text-left text-white flex p-28 justify-between">
+        <div className="max-w-7xl mx-auto font-poppins text-left text-white flex flex-col md:flex-row p-28 justify-between">
           <div>
             <h1 className="font-bold text-2xl mb-10">WiSchool</h1>
             <ul>
