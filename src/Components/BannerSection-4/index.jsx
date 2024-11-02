@@ -8,12 +8,12 @@ import course6 from './assets/course6.png';
 
 const BannerSec4 = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto px-14 md:px-0">
       <div className="flex justify-between py-16">
         <h1 className="font-bold text-4xl font-opensans">
           Most Popular courses
         </h1>
-        <p className="text-gray-400 text-2xl font-poppins"> v Short by</p>
+        <p className="text-gray-400 text-xl md:text-2xl font-poppins"> v Short by</p>
       </div>
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between">

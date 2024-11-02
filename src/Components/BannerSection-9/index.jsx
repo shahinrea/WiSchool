@@ -6,7 +6,7 @@ const BannerSec9 = () => {
   return (
     <section>
       <div
-        className="h-[532px] mx-auto relative bg-cover font-poppins mt-64"
+        className="h-[532px] mx-auto relative bg-cover font-poppins mt-64 ml-10 md:ml-0"
         style={{ backgroundImage: `url(${lady2})` }}
       >
         <img
@@ -16,21 +16,21 @@ const BannerSec9 = () => {
         />
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row relative">
           {/* First Div */}
-          <div className="hiddenw-6/12 flex items-center justify-center -translate-y-10">
-            <img src={lady1} alt="" className="h-[517px] w-[513px]" />
+          <div className="w-6/12 flex items-center justify-center -translate-y-10 md:block">
+            <img src={lady1} alt="" className="h-[517px] w-[513px] hidden md:block" />
           </div>
 
           {/* Second Div */}
-          <div className="w-6/12  flex flex-col p-20">
-            <p className="text-left font-bold font-opensans text-4xl text-white">
+          <div className="w-full md:w-6/12  flex flex-col p-20">
+            <p className="text-left font-bold font-opensans text-xl md:text-4xl text-white">
               You don’t have to see the whole staircase just take the first step
             </p>
             <p className="text-left text-white py-8">
               Amet in a suspendisse convallis eget, Amet in a suspendisse
               convallis egetAmet in a{' '}
             </p>
-            <div className="flex gap-4">
-              <button className="bg-[#3BD27B] py-3 px-6 rounded-md">
+            <div className="hidden md:flex gap-4">
+              <button className="bg-[#3BD27B] md:py-3 px-6 rounded-md">
                 Get Started
               </button>
               <button className="border-2 border-[#3BD27B] bg-white py-3 px-6 rounded-md text-[#3BD27B]">

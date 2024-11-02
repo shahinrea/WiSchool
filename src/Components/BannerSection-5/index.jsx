@@ -7,7 +7,7 @@ import rightarrow from './assets/rightarrow.png';
 
 const BannerSec5 = () => {
   return (
-    <div className="max-w-7xl mx-auto relative">
+    <div className="max-w-7xl mx-auto relative px-14 md:px-0">
       <div className="flex justify-between py-16">
         <h1 className="font-bold text-4xl font-opensans">
           Learn a new skill in two hours
@@ -34,7 +34,7 @@ const BannerSec5 = () => {
       <img
         src={leftarrow}
         alt=""
-        className="absolute left-0 top-1/2 z-30 bg-white rounded-full"
+        className="absolute left-0 top-1/2 z-30 bg-white rounded-full "
       />
       <img
         src={rightarrow}

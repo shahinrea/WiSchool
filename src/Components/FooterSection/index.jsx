@@ -56,14 +56,14 @@ function FooterSec() {
           <p className="text-white font-bold text-2xl text-center">
             Subscribe to get latest updates
           </p>
-          <div className="flex justify-center py-8 w-[545px] mx-auto mb-6">
+          <div className="flex justify-center py-0 w-0 md:py-8 md:w-[545px] mx-auto mb-6">
             <input
               type="email"
               placeholder="Your Email Address"
-              className="placeholder:text-[#3BD27B]  p-4 w-full"
+              className="placeholder:text-[#3BD27B] p-0 w-0  md:p-4 md:w-full"
             />
             <button className="bg-[#3BD27B] px-10 py-2 text-white font-bold">
-              Subcribe
+              Subscribe
             </button>
           </div>
         </div>

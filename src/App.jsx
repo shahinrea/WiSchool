@@ -9,7 +9,6 @@ import BannerSec8 from './Components/BannerSection-8';
 import BannerSec9 from './Components/BannerSection-9';
 import FooterSec from './Components/FooterSection';
 import Header from './Components/Header/Header';
-import CheckData from './Components/test';
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
       <BannerSec8 />
       <BannerSec9 />
       <FooterSec />
-      <CheckData />
     </div>
   );
 }

@@ -13,7 +13,7 @@ const BannerSec8 = () => {
       </div>
 
       <div className="flex flex-col md:flex-row gap-11">
-        <div className="flex flex-col justify-center md: w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl ">
+        <div className="flex flex-col justify-center w-full md:w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl ">
           <div className="gap-4">
             <div className="flex justify-center">
               <img
@@ -34,7 +34,7 @@ const BannerSec8 = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl">
+        <div className="flex flex-col justify-center w-full md:w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl">
           <div className="gap-4">
             <div className="flex justify-center">
               <img src={picture2} alt="" className="" />
@@ -52,7 +52,7 @@ const BannerSec8 = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl">
+        <div className="flex flex-col justify-center w-full md:w-4/12 border-1 border-gray-100 py-14 px-10 shadow-xl">
           <div className="gap-4">
             <div className="flex justify-center">
               <img src={picture3} alt="" className="" />

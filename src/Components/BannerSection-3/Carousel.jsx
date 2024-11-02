@@ -45,7 +45,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto Slider-Container py-10 justify-center items-center">
+    <div className="max-w-7xl mx-auto Slider-Container py-10 justify-center items-center px-14 md:px-0">
       <div className="flex justify-between py-16">
         <h1 className="font-bold text-4xl font-opensans">
           Choose favourite course from top cartegories

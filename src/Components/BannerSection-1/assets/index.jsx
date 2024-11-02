@@ -22,7 +22,7 @@ const BannerSec1 = () => {
           className="hover:scale-125 hover:translate-y-14 hover:-translate-x-10 ease-in-out duration-1000 ml-10 relative h-[500px] w-[750px]"
         />
       </div>
-      <img src={frame} alt="" className=" flex h-[605px] -m-8 rounded-r-3xl" />
+      <img src={frame} alt="" className="hidden md:flex h-[605px] -m-8 rounded-r-3xl" />
     </div>
   );
 };
